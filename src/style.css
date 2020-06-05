@@ -1,0 +1,131 @@
+html, body {
+    font-family: Tahoma, Arial;
+    padding: 0px;
+    margin: 0px;
+    color: #e7e7e7;
+    background: #4c5257;
+    font-size: 12px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.router-view {
+    display: flex;
+    justify-content: center;
+}
+
+#view-container {
+    margin: 30px;
+}
+
+#bitcoin {
+    width: 300px;
+    height: 300px;
+}
+
+@font-face {
+    font-family: playlist;
+    src: url('../fonts/playlist.otf');
+}
+
+h1 {
+    font-size: 46px;
+    color: #ffffff;
+    padding: 10px;
+    font-family: playlist;
+}
+
+h3 {
+    font-family: playlist;
+}
+
+#start-text {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.info-text {
+    font-size: 16px;
+    width: 1000px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: playlist;
+    font-size: 32px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.table {
+    width: 50%;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.name-coin-button {
+    cursor: pointer;
+}
+
+.exchange-image {
+    height: 25px;
+    margin-right: 7px;
+}
+
+#coins-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#coin-info {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 25%;
+    height: 25%;
+    margin: 50px;
+    padding: 10px;
+    background-color: #363b3f;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin: 30px;
+    font-size: 18px;
+}
+
+select, input {
+    height: 40px;
+}
+
+.currency-result {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.btn {
+    margin-left: 10px;
+    font-size: 18px;
+}
