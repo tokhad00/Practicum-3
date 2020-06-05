@@ -1,4 +1,4 @@
-# breweries
+# CryptoAnalysis
 
 ## Project setup
 ```
